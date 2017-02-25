@@ -1,0 +1,32 @@
+<html>
+<script>
+man = {}
+man['name'] = "Ernar"
+man['surname'] = "Kasym"
+man['prof'] = ["politik"]
+man.points = {
+	"stp": 85,
+	"komp_seti": 90,
+	"sql": 95,
+        "js":90
+}
+man2 = {
+	name: "Kanat",
+	surname: "Akhmet"
+}
+array = []
+array.push(man)
+array.push(man2)
+console.log(man);
+console.log(man["surname"]);
+console.log(man.points.js);
+delete man.name;
+console.log(man.name);
+man.name = "Samat"
+console.log(man.name);
+function calc(man){
+	return (man.points.stp+man.points.js+man.points.sql+stud.points.komp_seti)/5
+}
+console.log(man)
+</script>
+</html>
